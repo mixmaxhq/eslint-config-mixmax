@@ -18,12 +18,17 @@
     "es6",
     "es2015",
     "es8",
-    "es2017"
+    "es2017",
+    "eslint",
+    "eslintconfig"
   ],
   "author": "Jeff Wear <jeff@mixmax.com> (https://mixmax.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mixmaxhq/eslint-config-mixmax/issues"
   },
-  "homepage": "https://github.com/mixmaxhq/eslint-config-mixmax#readme"
+  "homepage": "https://github.com/mixmaxhq/eslint-config-mixmax#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }
