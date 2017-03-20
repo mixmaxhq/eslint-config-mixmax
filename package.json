@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-mixmax",
+  "version": "0.1.0",
+  "description": "Mixmax's WIP style guide for JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmaxhq/eslint-config-mixmax.git"
+  },
+  "keywords": [
+    "style",
+    "guide",
+    "lint",
+    "mixmax",
+    "es6",
+    "es2015",
+    "es8",
+    "es2017"
+  ],
+  "author": "Jeff Wear <jeff@mixmax.com> (https://mixmax.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/eslint-config-mixmax/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/eslint-config-mixmax#readme"
+}
