@@ -12,17 +12,22 @@ npm install eslint-config-mixmax --save-dev
 
 ## Usage
 
-In a directory containing Node.js code, create an `.eslintrc.json` file containing:
+Create `.eslintrc.json` files like
 
 ```json
 {
-  "extends": "mixmax/node"
+  "extends": "<name of config below>"
 }
 ```
 
-This configuration assumes that you're using Node 7.6.0 or higher.
+in the appropriate directories: extend…
 
-A configuration for browser code is forthcoming.
+* "mixmax/node", in directories containing Node.js code
+* "mixmax/node/spec", in directories containing Node specs (assumed to be using Jasmine)
+
+These configurations assume that you're using Node 7.6.0 or higher.
+
+Configurations for browser code and specs are forthcoming.
 
 If you want you can extend the base configuration directly (`"extends": "mixmax"`) but you shouldn't
 need to since the Node and browser configurations already extend that.
