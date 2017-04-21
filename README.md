@@ -7,6 +7,10 @@ Later it should probably enforce [our code styles](https://github.com/mixmaxhq/c
 ## Installing
 
 ```sh
+yarn add eslint-config-mixmax
+```
+or
+```sh
 npm install eslint-config-mixmax --save-dev
 ```
 
