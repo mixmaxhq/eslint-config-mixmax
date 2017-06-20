@@ -11,17 +11,17 @@ module.exports = {
     'no-use-before-define': ['error', 'nofunc'],
     'no-unused-vars': ['error', {
       // Per https://github.com/eslint/eslint/issues/1494#issuecomment-232890308.
-      'argsIgnorePattern': 'next'
+      argsIgnorePattern: 'next'
     }],
     quotes: ['error', 'single', {
       // Let people use strings like "don't worry about single quotes".
-      'avoidEscape': true
+      avoidEscape: true
     }],
     // Enforce our whitespace styles around keywords.
     'keyword-spacing': ['error', {
-      'overrides': {
-        'function': {
-          'after': false
+      overrides: {
+        function: {
+          after: false
         }
       }
     }],
