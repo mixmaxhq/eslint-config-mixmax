@@ -11,9 +11,5 @@ module.exports = {
   },
   env: {
     browser: true,
-    jquery: true
-  },
-  globals: {
-    Backbone: true
   }
 };
