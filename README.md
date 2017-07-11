@@ -7,7 +7,7 @@ Later it should probably enforce [our code styles](https://github.com/mixmaxhq/c
 ## Installing
 
 ```sh
-yarn add eslint-config-mixmax
+yarn add -D eslint-config-mixmax
 ```
 or
 ```sh
