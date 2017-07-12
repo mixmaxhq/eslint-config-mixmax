@@ -31,5 +31,10 @@ module.exports = {
     // /* eslint-disable no-console */
     // comment at the top.
     'no-console': ['error'],
+
+    // TODO Investigate and fix these (harmless) errors. Note that Express routes play by their own
+    // escaping rules and can cause ESLint to fail so we'll need to explicitly ignore the rule in
+    // our Express route declarations that use regexps.
+    'no-useless-escape': 'off'
   }
 };
