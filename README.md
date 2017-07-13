@@ -14,6 +14,15 @@ or
 npm install eslint-config-mixmax --save-dev
 ```
 
+Install this config's peer dependencies if you haven't already:
+```sh
+yarn add -D "babel-eslint@^7.2.3" "eslint@>=3" "eslint-plugin-react@^7.1.0"
+```
+or
+```sh
+npm install --save-dev "babel-eslint@^7.2.3" "eslint@>=3" "eslint-plugin-react@^7.1.0"
+```
+
 ## Usage
 
 Create `.eslintrc.json` files like
