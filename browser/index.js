@@ -1,11 +1,6 @@
 module.exports = {
   extends: ['mixmax', 'plugin:react/recommended'],
   parser: 'babel-eslint',
-  settings: {
-    react: {
-      version: '15.5.4'
-    }
-  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true
