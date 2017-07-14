@@ -70,4 +70,5 @@ https://github.com/mixmaxhq/code-styles#js to here.
 
 ## Changelog
 
+* 0.4.1 Make `eslint-plugin-react` an optional dependency.
 * 0.4.0 Add `browser` and `browser/spec` configs.
