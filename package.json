@@ -29,6 +29,9 @@
   },
   "homepage": "https://github.com/mixmaxhq/eslint-config-mixmax#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
-  }
+    "babel-eslint": "^7.2.3",
+    "eslint": ">= 3",
+    "eslint-plugin-react": "^7.1.0"
+  },
+  "devDependencies": {}
 }

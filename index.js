@@ -4,7 +4,9 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   rules: {
-    indent: ['error', 2],
+    indent: ['error', 2, {
+      SwitchCase: 1
+    }],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
@@ -29,5 +31,14 @@ module.exports = {
     // /* eslint-disable no-console */
     // comment at the top.
     'no-console': ['error'],
+
+    /**
+     * TODO Investigate and fix these (harmless) errors (there are several in `app` throughout our
+     * client-side code, eg in `StringUtils`).
+     *
+     * Note that Express routes play by their own escaping rules and can cause ESLint to fail so
+     * we'll need to explicitly ignore the rule in our Express route declarations that use regexps.
+     */
+    'no-useless-escape': 'off'
   }
 };
