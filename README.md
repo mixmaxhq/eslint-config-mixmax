@@ -35,10 +35,10 @@ Create `.eslintrc.json` files like
 
 in the appropriate directories: extend…
 
-* "mixmax/node", in directories containing Node.js code
-* "mixmax/node/spec", in directories containing Node specs (assumed to be using Jasmine)
-* "mixmax/browser", in directories containing browser code; `eslint-plugin-react` is enabled; `Backbone` is globalized; `jQuery` environment is set
-* "mixmax/browser/spec", in directories containing browser specs (assumed to be using Jasmine)
+* "mixmax/node", in directories containing Node.js code.
+* "mixmax/node/spec", in directories containing Node specs (assumed to be using Jasmine).
+* "mixmax/browser", in directories containing browser code. `eslint-plugin-react` is enabled in this configuration to allow for React-specific linting. Additionally, `Backbone`  and `$` are globalized so that their `import` statements are not required by the linter (though they should be - see TODOs in this configuration file).
+* "mixmax/browser/spec", in directories containing browser specs (assumed to be using Jasmine).
 
 These configurations assume that you're using Node 7.6.0 or higher.
 
