@@ -58,3 +58,7 @@ immediately breaking our projects I’ve deferred this till later.
 
 This repository should probably document whatever styles we end up adopting, i.e. we should migrate
 https://github.com/mixmaxhq/code-styles#js to here.
+
+## Changelog
+
+* 0.4.0 Add `browser` and `browser/spec` configs.
