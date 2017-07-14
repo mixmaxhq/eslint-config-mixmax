@@ -28,10 +28,11 @@
     "url": "https://github.com/mixmaxhq/eslint-config-mixmax/issues"
   },
   "homepage": "https://github.com/mixmaxhq/eslint-config-mixmax#readme",
-  "peerDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": ">= 3",
+  "optionalDependencies": {
     "eslint-plugin-react": "^7.1.0"
   },
-  "devDependencies": {}
+  "peerDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": ">= 3"
+  }
 }

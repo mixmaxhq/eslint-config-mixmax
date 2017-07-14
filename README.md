@@ -16,11 +16,20 @@ npm install eslint-config-mixmax --save-dev
 
 Install this config's peer dependencies if you haven't already:
 ```sh
-yarn add -D "babel-eslint@^7.2.3" "eslint@>=3" "eslint-plugin-react@^7.1.0"
+yarn add -D "babel-eslint@^7.2.3" "eslint@>=3"
 ```
 or
 ```sh
-npm install --save-dev "babel-eslint@^7.2.3" "eslint@>=3" "eslint-plugin-react@^7.1.0"
+npm install --save-dev "babel-eslint@^7.2.3" "eslint@>=3"
+```
+
+If you'll be using the `browser` configs, make sure to install the optional `eslint-plugin-react` dependency.
+```sh
+yarn add -D "eslint-plugin-react@^7.1.0"
+```
+or
+```sh
+npm install --save-dev "eslint-plugin-react@^7.1.0"
 ```
 
 ## Usage
