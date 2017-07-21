@@ -16,20 +16,20 @@ npm install eslint-config-mixmax --save-dev
 
 Install this config's peer dependencies if you haven't already:
 ```sh
-yarn add -D "babel-eslint@^7.2.3" "eslint@>=3"
+yarn add -D "eslint@>=3"
 ```
 or
 ```sh
-npm install --save-dev "babel-eslint@^7.2.3" "eslint@>=3"
+npm install --save-dev "eslint@>=3"
 ```
 
-If you'll be using the `browser` configs, make sure to install the optional `eslint-plugin-react` dependency.
+If you'll be using the `browser` configs, make sure to install the optional `eslint-plugin-react` and `babel-eslint` dependencies.
 ```sh
-yarn add -D "eslint-plugin-react@^7.1.0"
+yarn add -D "eslint-plugin-react@^7.1.0" "babel-eslint@^7.2.3"
 ```
 or
 ```sh
-npm install --save-dev "eslint-plugin-react@^7.1.0"
+npm install --save-dev "eslint-plugin-react@^7.1.0" "babel-eslint@^7.2.3"
 ```
 
 ## Usage
@@ -70,5 +70,6 @@ https://github.com/mixmaxhq/code-styles#js to here.
 
 ## Changelog
 
+* 0.4.2 Make `babel-eslint` an optional dependency.
 * 0.4.1 Make `eslint-plugin-react` an optional dependency.
 * 0.4.0 Add `browser` and `browser/spec` configs.

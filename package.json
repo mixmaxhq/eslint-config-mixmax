@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/mixmaxhq/eslint-config-mixmax#readme",
   "optionalDependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^7.2.3",
     "eslint": ">= 3"
   }
 }
