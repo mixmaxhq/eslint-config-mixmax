@@ -4,7 +4,8 @@
   "description": "Mixmax's WIP style guide for JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,13 @@
   },
   "peerDependencies": {
     "eslint": ">= 3"
-  }
+  },
+  "devDependencies": {
+    "eslint": ">=3",
+    "eslint-config-mixmax": "^0.6.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
 }
