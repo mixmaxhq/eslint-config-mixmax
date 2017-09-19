@@ -4,6 +4,7 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   rules: {
+    'arrow-parens': ['error', 'always'],
     indent: ['error', 2, {
       SwitchCase: 1
     }],
