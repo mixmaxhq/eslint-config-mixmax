@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mixmax",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Mixmax's WIP style guide for JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "eslint": ">=3",
-    "eslint-config-mixmax": "^0.6.0",
+    "eslint-config-mixmax": "^0.7.0",
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
