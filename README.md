@@ -70,6 +70,7 @@ https://github.com/mixmaxhq/code-styles#js to here.
 
 ## Changelog
 
+* 0.7.0 Enforce `arrow-parens` with error.
 * 0.6.0 Add `ava` config
 * 0.5.0 Globalize `analytics` in `browser` configs.
 * 0.4.2 Make `babel-eslint` an optional dependency.
