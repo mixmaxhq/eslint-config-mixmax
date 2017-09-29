@@ -32,6 +32,16 @@ module.exports = {
     // comment at the top.
     'no-console': ['error'],
 
+    // specify the maximum length of a line in your program
+    // http://eslint.org/docs/rules/max-len
+    'max-len': ['error', 100, 2, {
+      ignoreUrls: true,
+      ignoreComments: true,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
+
     /**
      * TODO Investigate and fix these (harmless) errors (there are several in `app` throughout our
      * client-side code, eg in `StringUtils`).
