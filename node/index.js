@@ -6,4 +6,4 @@ module.exports = {
     node: true
   },
   extends: 'mixmax'
-}
+};

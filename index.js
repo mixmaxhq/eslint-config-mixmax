@@ -4,11 +4,11 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   rules: {
+    'arrow-parens': ['error', 'always'],
     indent: ['error', 2, {
       SwitchCase: 1
     }],
     'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'no-use-before-define': ['error', 'nofunc'],
     'no-unused-vars': ['error', {
