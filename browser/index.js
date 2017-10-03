@@ -16,5 +16,8 @@ module.exports = {
   globals: {
     // TODO: We should not globalize this - we should explicitly import our CDN-sourced dependencies.
     Backbone: true
+  },
+  rules: {
+    'react/jsx-wrap-multilines': 2
   }
 };
