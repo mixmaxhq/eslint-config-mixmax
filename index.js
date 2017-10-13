@@ -5,6 +5,7 @@ module.exports = {
   extends: 'eslint:recommended',
   rules: {
     'arrow-parens': ['error', 'always'],
+    'no-mixed-operators': ['error', {'groups': [['&&','||']]}],
     indent: ['error', 2, {
       SwitchCase: 1
     }],
