@@ -1,5 +1,7 @@
 ## Release History
 
+* 0.10.0 jsx-quotes prefer-single
+
 * 0.9.0 no-mixed-operators ||,&&
 
 * 0.8.1 Fix missing comma in browser/index.js
