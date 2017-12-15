@@ -5,6 +5,7 @@ module.exports = {
   extends: 'eslint:recommended',
   rules: {
     'arrow-parens': ['error', 'always'],
+    'prefer-const': ['error'],
     'jsx-quotes': ['error', 'prefer-single'],
     'no-mixed-operators': ['error', {'groups': [['&&','||']]}],
     indent: ['error', 2, {
