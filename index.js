@@ -6,6 +6,7 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
+    'object-shorthand': ['error'],
     'jsx-quotes': ['error', 'prefer-single'],
     'no-mixed-operators': ['error', {'groups': [['&&','||']]}],
     indent: ['error', 2, {
