@@ -7,6 +7,13 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
     'object-shorthand': ['error'],
+    'space-before-function-paren': [
+      'error', {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
+    ],
     'jsx-quotes': ['error', 'prefer-single'],
     'no-mixed-operators': ['error', {'groups': [['&&','||']]}],
     indent: ['error', 2, {
