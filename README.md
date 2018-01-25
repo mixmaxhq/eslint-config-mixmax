@@ -61,10 +61,6 @@ in the appropriate directories: extend…
 * "mixmax/browser", in directories containing browser code. `eslint-plugin-react` is enabled in this configuration to allow for React-specific linting. Additionally, `Backbone`  and `$` are globalized so that their `import` statements are not required by the linter (though they should be - see TODOs in this configuration file).
 * "mixmax/browser/spec", in directories containing browser specs (assumed to be using Jasmine).
 
-These configurations assume that you're using Node 7.6.0 or higher.
-
-Configurations for jest is forthcoming.
-
 If you want you can extend the base configuration directly (`"extends": "mixmax"`) but you shouldn't
 need to since the Node and browser configurations already extend that.
 
