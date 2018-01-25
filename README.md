@@ -63,15 +63,14 @@ in the appropriate directories: extend…
 
 These configurations assume that you're using Node 7.6.0 or higher.
 
-Configurations for browser code and specs are forthcoming.
+Configurations for jest is forthcoming.
 
 If you want you can extend the base configuration directly (`"extends": "mixmax"`) but you shouldn't
 need to since the Node and browser configurations already extend that.
 
 ## Roadmap
 
-At v0.1.0, this config is starting off very minimal&mdash;pretty much just ESLint's recommended
-rules (the checkmarked rules [here](http://eslint.org/docs/rules)).
+At v1.0.0, we've implemented configs for the common project types, and update rules as new conventions arise (still mostly ESLint's recommended set though (the checkmarked rules [here](http://eslint.org/docs/rules)). New rules should have justification for their use and a small analysis of the impact on existing code.
 
 We may wish to adopt a more comprehensive / style-oriented spec like [Airbnb’s](https://github.com/airbnb/javascript),
 since team members write JS, especially ES6, in slightly different ways; but in the interest of not
