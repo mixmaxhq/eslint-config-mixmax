@@ -1,13 +1,10 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: 'mixmax/node',
   plugins: [
     // Allows correct parsing of flow annotated files.
     'flowtype'
   ],
   rules: {
-    'space-infix-ops': 0,
-    'no-duplicate-imports': 0,
     // Makes flow `type` definitions defines
     'flowtype/define-flow-type': 1,
     // Do not allow spaces before type declarations, i.e. let a: number, not let a : number
@@ -31,9 +28,6 @@ module.exports = {
   },
   parserOptions: {
     // Required to support import/export syntax when using types
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
+    sourceType: 'module'
   }
 };
