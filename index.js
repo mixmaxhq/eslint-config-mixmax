@@ -27,7 +27,7 @@ module.exports = {
         }
       }
     }],
-    // Console logs should be mostly nonexistent, and places like app.js should just have a 
+    // Console logs should be mostly nonexistent, and places like app.js should just have a
     // /* eslint-disable no-console */
     // comment at the top.
     'no-console': ['error'],

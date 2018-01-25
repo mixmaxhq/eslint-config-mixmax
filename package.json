@@ -30,14 +30,15 @@
   },
   "homepage": "https://github.com/mixmaxhq/eslint-config-mixmax#readme",
   "optionalDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.1",
+    "eslint-plugin-flowtype": "^2.41.0",
     "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">=4.14.0"
   },
   "devDependencies": {
-    "eslint": ">=3",
+    "eslint": ">=4.14.0",
     "eslint-config-mixmax": "^0.7.0",
     "pre-commit": "^1.2.2"
   },
