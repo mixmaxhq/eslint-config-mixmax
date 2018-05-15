@@ -7,7 +7,7 @@ Later it should probably enforce [our code styles](https://github.com/mixmaxhq/c
 ## Installing
 
 ```sh
-yarn add -D eslint-config-mixmax
+npm install -D eslint-config-mixmax
 ```
 or
 ```sh
@@ -16,7 +16,7 @@ npm install eslint-config-mixmax --save-dev
 
 Install this config's peer dependencies if you haven't already:
 ```sh
-yarn add -D "eslint@>=4.14.0"
+npm install -D "eslint@>=4.14.0"
 ```
 or
 ```sh
@@ -25,7 +25,7 @@ npm install --save-dev "eslint@>=4.14.0"
 
 If you'll be using the `browser` configs, make sure to install the optional `eslint-plugin-react` and `babel-eslint` dependencies.
 ```sh
-yarn add -D "eslint-plugin-react@^7.1.0" "babel-eslint@^8.2.1"
+npm install -D "eslint-plugin-react@^7.1.0" "babel-eslint@^8.2.1"
 ```
 or
 ```sh
@@ -34,7 +34,7 @@ npm install --save-dev "eslint-plugin-react@^7.1.0" "babel-eslint@^8.2.1"
 
 If you'll be using the `flow` configs, make sure to install the optional `eslint-plugin-flowtype` and `babel-eslint` dependencies.
 ```sh
-yarn add -D "eslint-plugin-flowtype@^2.41.0" "babel-eslint@^8.2.1"
+npm install -D "eslint-plugin-flowtype@^2.41.0" "babel-eslint@^8.2.1"
 ```
 or
 ```sh
