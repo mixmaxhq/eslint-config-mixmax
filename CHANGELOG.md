@@ -1,5 +1,7 @@
 ## Release History
 
+* 1.1.0 Add no-return-await rule
+
 * 0.12.0 Add new rules `prefer-const`, `object-shorthand`, `space-before-function-paren`.
 
 * 0.11.0 Add Jest config
