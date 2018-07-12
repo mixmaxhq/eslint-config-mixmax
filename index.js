@@ -38,6 +38,7 @@ module.exports = {
         }
       }
     }],
+    'no-return-await': ['error'],
     // Console logs should be mostly nonexistent, and places like app.js should just have a
     // /* eslint-disable no-console */
     // comment at the top.
