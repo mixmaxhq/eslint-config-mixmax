@@ -1,5 +1,7 @@
 ## Release History
 
+* 1.2.0 Deprecate browser globals, add `browser/legacy` for that purpose
+
 * 1.1.0 Add no-return-await rule
 
 * 0.12.0 Add new rules `prefer-const`, `object-shorthand`, `space-before-function-paren`.
