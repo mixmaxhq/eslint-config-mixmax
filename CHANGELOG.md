@@ -1,5 +1,7 @@
 ## Release History
 
+* 1.3.0 Add `parseInt` radix rule
+
 * 1.2.0 Deprecate browser globals, add `browser/legacy` for that purpose
 
 * 1.1.0 Add no-return-await rule
@@ -27,4 +29,3 @@
 * 0.4.1 Make `eslint-plugin-react` an optional dependency.
 
 * 0.4.0 Add `browser` and `browser/spec` configs.
-
