@@ -51,6 +51,9 @@ module.exports = {
      * Note that Express routes play by their own escaping rules and can cause ESLint to fail so
      * we'll need to explicitly ignore the rule in our Express route declarations that use regexps.
      */
-    'no-useless-escape': 'off'
+    'no-useless-escape': 'off',
+
+    // Error when we use parseInt incorrectly or without the radix parameter.
+    'radix': ['error', 'always'],
   }
 };
