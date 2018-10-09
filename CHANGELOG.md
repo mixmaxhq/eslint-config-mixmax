@@ -1,5 +1,7 @@
 ## Release History
 
+* 2.0.0 Upgrade eslint to  *Breaking* remove 
+
 * 1.3.0 Add `parseInt` radix rule
 
 * 1.2.0 Deprecate browser globals, add `browser/legacy` for that purpose
