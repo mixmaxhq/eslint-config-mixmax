@@ -55,5 +55,8 @@ module.exports = {
 
     // Error when we use parseInt incorrectly or without the radix parameter.
     'radix': ['error', 'always'],
+
+    // Only allow throwing Error objects.
+    'no-throw-literal': ['error']
   }
 };
