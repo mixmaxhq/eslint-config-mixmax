@@ -1,5 +1,7 @@
 ## Release History
 
+* 2.1.0 Adds no-throw-literal rule
+
 * 2.0.0 Upgrade eslint to  *Breaking* remove 
 
 * 1.3.0 Add `parseInt` radix rule
