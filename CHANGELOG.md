@@ -1,5 +1,7 @@
 ## Release History
 
+* 3.2.0 Add `consistent-return` rule.
+
 * 3.1.0 Add `mixmax/node/disable-require-atomic`
 
 * 2.1.0 Adds no-throw-literal rule
