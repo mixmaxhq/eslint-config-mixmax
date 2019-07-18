@@ -1,5 +1,7 @@
 ## Release History
 
+* 3.3.0 Add `mixmax/prettier` to compose with `mixmax/node` when adopting prettier.
+
 * 3.2.0 Add `consistent-return` rule.
 
 * 3.1.0 Add `mixmax/node/disable-require-atomic`
