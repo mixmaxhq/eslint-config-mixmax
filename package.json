@@ -21,7 +21,9 @@
     "es8",
     "es2017",
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "prettier",
+    "flow"
   ],
   "author": "Jeff Wear <jeff@mixmax.com> (https://mixmax.com)",
   "license": "MIT",
@@ -32,7 +34,9 @@
   "optionalDependencies": {
     "babel-eslint": "^10.0.2",
     "eslint-plugin-flowtype": "^3.11.1",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0"
   },
   "peerDependencies": {
     "eslint": ">=6.0.1"
