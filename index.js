@@ -58,9 +58,5 @@ module.exports = {
 
     // Only allow throwing Error objects.
     'no-throw-literal': ['error'],
-
-    // Require consistent return values (either always or never specifying values) so we don't
-    // rely on implicit returns when return booleans or undefined.
-    'consistent-return': ['error', {treatUndefinedAsUnspecified: true}],
   }
 };
