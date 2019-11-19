@@ -5,5 +5,5 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: '..',
+  extends: ['..', '../prettier'],
 };
