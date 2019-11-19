@@ -6,7 +6,7 @@
   "scripts": {
     "ci": "npm run lint",
     "ci:commitlint": "commitlint-jenkins --pr-only",
-    "lint": "eslint . --ext '.js, .json'",
+    "lint": "eslint .",
     "prepublishOnly": "if [ \"$CI\" = '' ]; then node -p 'JSON.parse(process.env.npm_package_config_manualPublishMessage)'; exit 1; fi",
     "semantic-release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
