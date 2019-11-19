@@ -4,8 +4,12 @@
   "description": "Mixmax's WIP style guide for JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "ci": "npm run lint",
+    "ci:commitlint": "commitlint-jenkins --pr-only",
+    "lint": "eslint .",
+    "prepublishOnly": "if [ \"$CI\" = '' ]; then node -p 'JSON.parse(process.env.npm_package_config_manualPublishMessage)'; exit 1; fi",
+    "semantic-release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -42,11 +46,33 @@
     "eslint": ">=6.0.1"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.3",
+    "@mixmaxhq/commitlint-jenkins": "^1.4.1",
+    "@mixmaxhq/semantic-release-config": "^1.2.2",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.0.1",
     "eslint-config-mixmax": "^2.1.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "semantic-release": "^15.13.31"
   },
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "manualPublishMessage": "This repository is configured to use semantic-release for its releases. Please do not release manually.\n"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "extends": "@mixmaxhq/semantic-release-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
