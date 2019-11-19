@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    jasmine: true
+    jasmine: true,
   },
-  extends: 'mixmax/node'
+  extends: './',
 };

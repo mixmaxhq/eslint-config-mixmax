@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    jest: true
+    jest: true,
   },
-  extends: 'mixmax/node'
+  extends: './',
 };

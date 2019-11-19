@@ -6,7 +6,7 @@
   "scripts": {
     "ci": "npm run lint",
     "ci:commitlint": "commitlint-jenkins --pr-only",
-    "lint": "eslint .",
+    "lint": "eslint . --ext '.js, .json'",
     "prepublishOnly": "if [ \"$CI\" = '' ]; then node -p 'JSON.parse(process.env.npm_package_config_manualPublishMessage)'; exit 1; fi",
     "semantic-release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -48,12 +48,12 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.3",
     "@mixmaxhq/commitlint-jenkins": "^1.4.1",
+    "@mixmaxhq/prettier-config": "^1.0.0",
     "@mixmaxhq/semantic-release-config": "^1.2.2",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.0.1",
-    "eslint-config-mixmax": "^2.1.0",
-    "pre-commit": "^1.2.2",
-    "semantic-release": "^15.13.31"
+    "semantic-release": "^15.13.31",
+    "prettier": "^1.19.1"
   },
   "pre-commit": [
     "lint"

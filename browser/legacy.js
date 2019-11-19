@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'mixmax/browser',
+  extends: './',
   env: {
     // TODO: We should not globalize this - we should explicitly import our CDN-sourced dependencies.
     jquery: true,
