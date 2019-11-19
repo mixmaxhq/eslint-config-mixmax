@@ -1,3 +1,10 @@
+## [4.1.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.0.0...v4.1.0) (2019-11-19)
+
+
+### Features
+
+* add jest environment for unlabeled support files ([7a335e4](https://github.com/mixmaxhq/eslint-config-mixmax/commit/7a335e4f960f663700606592f46f4457039b96b9))
+
 ## [4.0.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v3.4.0...v4.0.0) (2019-11-19)
 
 
