@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   extends: 'eslint:recommended',
   rules: {
@@ -8,36 +8,51 @@ module.exports = {
     'prefer-const': ['error'],
     'object-shorthand': ['error'],
     'space-before-function-paren': [
-      'error', {
+      'error',
+      {
         anonymous: 'never',
         named: 'never',
-        asyncArrow: 'always'
-      }
+        asyncArrow: 'always',
+      },
     ],
     'jsx-quotes': ['error', 'prefer-single'],
-    'no-mixed-operators': ['error', {'groups': [['&&','||']]}],
-    indent: ['error', 2, {
-      SwitchCase: 1
-    }],
+    'no-mixed-operators': ['error', { groups: [['&&', '||']] }],
+    indent: [
+      'error',
+      2,
+      {
+        SwitchCase: 1,
+      },
+    ],
     'linebreak-style': ['error', 'unix'],
     semi: ['error', 'always'],
     'no-use-before-define': ['error', 'nofunc'],
-    'no-unused-vars': ['error', {
-      // Per https://github.com/eslint/eslint/issues/1494#issuecomment-232890308.
-      argsIgnorePattern: 'next'
-    }],
-    quotes: ['error', 'single', {
-      // Let people use strings like "don't worry about single quotes".
-      avoidEscape: true
-    }],
+    'no-unused-vars': [
+      'error',
+      {
+        // Per https://github.com/eslint/eslint/issues/1494#issuecomment-232890308.
+        argsIgnorePattern: 'next',
+      },
+    ],
+    quotes: [
+      'error',
+      'single',
+      {
+        // Let people use strings like "don't worry about single quotes".
+        avoidEscape: true,
+      },
+    ],
     // Enforce our whitespace styles around keywords.
-    'keyword-spacing': ['error', {
-      overrides: {
-        function: {
-          after: false
-        }
-      }
-    }],
+    'keyword-spacing': [
+      'error',
+      {
+        overrides: {
+          function: {
+            after: false,
+          },
+        },
+      },
+    ],
     'no-return-await': ['error'],
     // Console logs should be mostly nonexistent, and places like app.js should just have a
     // /* eslint-disable no-console */
@@ -54,13 +69,13 @@ module.exports = {
     'no-useless-escape': 'off',
 
     // Error when we use parseInt incorrectly or without the radix parameter.
-    'radix': ['error', 'always'],
+    radix: ['error', 'always'],
 
     // Only allow throwing Error objects.
     'no-throw-literal': ['error'],
 
     // Require consistent return values (either always or never specifying values) so we don't
     // rely on implicit returns when return booleans or undefined.
-    'consistent-return': ['error', {treatUndefinedAsUnspecified: true}],
-  }
+    'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
+  },
 };
