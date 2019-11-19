@@ -1,3 +1,27 @@
+## [4.0.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v3.4.0...v4.0.0) (2019-11-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* Any repositories that use `mixmax/ava` will be unable to do so in this version.
+* Projects that use the `mixmax/node` config but don't
+use `mixmax/prettier` may see new eslint errors.
+
+### Features
+
+* add jest environment to jest-like files ([535c848](https://github.com/mixmaxhq/eslint-config-mixmax/commit/535c84839fea0174e4b02272146f11b75c377524))
+
+
+### Bug Fixes
+
+* remove ava config ([84deae3](https://github.com/mixmaxhq/eslint-config-mixmax/commit/84deae3b1108c233b5a523dea47de584c86c016a))
+* use relative imports instead of named imports ([e6ca89b](https://github.com/mixmaxhq/eslint-config-mixmax/commit/e6ca89b0682e02c84a403adf5837cf6698c430ff))
+
+
+### improvement
+
+* include prettier in default node config ([1d9b3bc](https://github.com/mixmaxhq/eslint-config-mixmax/commit/1d9b3bc7f72b14b7cfc2dbdfe7634841866400ce))
+
 ## Release History
 
 * 3.4.0 Use `treatUndefinedAsUnspecified` with `consistent-return`.
