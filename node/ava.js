@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'mixmax/node',
+  extends: './',
   parserOptions: {
     sourceType: 'module'
   }
