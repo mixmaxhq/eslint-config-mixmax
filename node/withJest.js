@@ -12,5 +12,11 @@ module.exports = {
         jest: true,
       },
     },
+    {
+      files: ['jest.config.js'],
+      parserOptions: {
+        sourceType: 'script',
+      },
+    },
   ],
 };
