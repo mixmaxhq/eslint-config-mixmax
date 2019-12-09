@@ -1,3 +1,10 @@
+## [4.2.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.1.0...v4.2.0) (2019-12-09)
+
+
+### Features
+
+* add jest config file override ([96c158f](https://github.com/mixmaxhq/eslint-config-mixmax/commit/96c158f7bfe09784f1ff693ad7309785c1fc69e2))
+
 ## [4.1.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.0.0...v4.1.0) (2019-11-19)
 
 
