@@ -1,3 +1,10 @@
+## [4.3.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.2.0...v4.3.0) (2019-12-11)
+
+
+### Features
+
+* require newline at the end of files ([ff12437](https://github.com/mixmaxhq/eslint-config-mixmax/commit/ff1243737900713f3c2f478e21863ea0b2a942d5))
+
 ## [4.2.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.1.0...v4.2.0) (2019-12-09)
 
 
