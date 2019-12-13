@@ -3,6 +3,7 @@ module.exports = {
   plugins: [
     // Allows correct parsing of flow annotated files.
     'flowtype',
+    'jsdoc',
   ],
   rules: {
     // Makes flow `type` definitions defines
@@ -13,6 +14,10 @@ module.exports = {
     'flowtype/use-flow-type': 1,
     // Enforces camelcase for type definitions
     'flowtype/type-id-match': [2, '^([A-Z]+[a-z0-9A-Z]*)$'],
+    // Disallows the user of types in JSDoc comments
+    'jsdoc/no-types': 'error',
+    'jsdoc/require-param-type': 'off',
+    'jsdoc/require-returns-type': 'off',
   },
   settings: {
     // Only use the flow linter for files with `@flow`

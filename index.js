@@ -2,7 +2,7 @@ module.exports = {
   env: {
     es6: true,
   },
-  extends: 'eslint:recommended',
+  extends: ['eslint:recommended', 'plugin:jsdoc/recommended'],
   rules: {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
@@ -78,5 +78,20 @@ module.exports = {
     // rely on implicit returns when return booleans or undefined.
     'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
     'eol-last': ['error', 'always'],
+
+    // Override some options from jsdoc's recommended setup.
+    'jsdoc/check-indentation': 'error',
+    'jsdoc/require-hyphen-before-param-description': ['error', 'never'],
+    'jsdoc/require-jsdoc': 'off',
+    'jsdoc/require-param': 'off',
+    'jsdoc/require-returns': 'off',
+  },
+  settings: {
+    jsdoc: {
+      overrideReplacesDocs: true,
+      tagNamePreference: {
+        returns: 'return',
+      },
+    },
   },
 };
