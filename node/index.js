@@ -6,4 +6,12 @@ module.exports = {
     node: true,
   },
   extends: ['..', '../prettier'],
+  overrides: [
+    {
+      files: ['babel.config.js'],
+      parserOptions: {
+        sourceType: 'script',
+      },
+    },
+  ],
 };
