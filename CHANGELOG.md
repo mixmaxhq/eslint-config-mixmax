@@ -1,3 +1,11 @@
+## [4.4.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.3.0...v4.4.0) (2020-01-18)
+
+
+### Features
+
+* add strict flow config ([12aabb6](https://github.com/mixmaxhq/eslint-config-mixmax/commit/12aabb6fb2af09b3d7e5c5224db3d84291e76d1e))
+* override babel config file sourceType ([4af9a2d](https://github.com/mixmaxhq/eslint-config-mixmax/commit/4af9a2d71a5efb08a7a010f5b6e115fef4cfb0ef))
+
 ## [4.3.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.2.0...v4.3.0) (2019-12-11)
 
 
