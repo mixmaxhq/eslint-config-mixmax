@@ -79,4 +79,12 @@ module.exports = {
     'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
     'eol-last': ['error', 'always'],
   },
+  overrides: [
+    {
+      files: ['flow-typed/**'],
+      rules: {
+        'no-use-before-define': 'off',
+      },
+    },
+  ],
 };
