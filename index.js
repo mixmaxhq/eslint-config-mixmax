@@ -56,11 +56,11 @@ module.exports = {
     'no-return-await': ['error'],
     // Console logs should be mostly nonexistent, and places like app.js should just have a
     // /* eslint-disable no-console */
-    // comment at the top.
+    // comment at the top, or be specified as an override in the appropriate .eslintrc file.
     'no-console': ['error'],
 
     /**
-     * TODO Investigate and fix these (harmless) errors (there are several in `app` throughout our
+     * TODO: Investigate and fix these (harmless) errors (there are several in `app` throughout our
      * client-side code, eg in `StringUtils`).
      *
      * Note that Express routes play by their own escaping rules and can cause ESLint to fail so
@@ -79,4 +79,12 @@ module.exports = {
     'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
     'eol-last': ['error', 'always'],
   },
+  overrides: [
+    {
+      files: ['flow-typed/**'],
+      rules: {
+        'no-use-before-define': 'off',
+      },
+    },
+  ],
 };

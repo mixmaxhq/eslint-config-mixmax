@@ -12,6 +12,11 @@ module.exports = {
         Function: true,
       },
     ],
-    'flowtype/require-valid-file-annotation': ['error', 'always', { annotationStyle: 'none' }],
+  },
+  settings: {
+    // Use the flow linter for all files, based on flow configuring all=true.
+    flowtype: {
+      onlyFilesWithFlowAnnotation: false,
+    },
   },
 };
