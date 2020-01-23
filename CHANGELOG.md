@@ -1,3 +1,12 @@
+## [4.5.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.4.0...v4.5.0) (2020-01-23)
+
+
+### Features
+
+* add no-use-before-define rule to flow-typed definitions ([5302dc4](https://github.com/mixmaxhq/eslint-config-mixmax/commit/5302dc4c27eaf9d2e4a20363988e86eb0a615294))
+* assume all=true for flow/strict instead of requiring annotations ([8066720](https://github.com/mixmaxhq/eslint-config-mixmax/commit/80667200d2de34b91d8f517174d241630d7b3b1e))
+* permit $-prefixed type names ([ea32d4c](https://github.com/mixmaxhq/eslint-config-mixmax/commit/ea32d4c832621a4d507ea632b840b88faa533dc2))
+
 ## [4.4.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.3.0...v4.4.0) (2020-01-18)
 
 
