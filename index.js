@@ -6,7 +6,16 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
-    'object-shorthand': ['error'],
+    'object-shorthand': [
+      'error',
+      'always',
+      {
+        // This prefers the shorthand object method syntax over arrow functions when they use an
+        // explicit return statement. This normalizes methods in most cases, provided they don't
+        // interact with `this` and aren't expression-derived arrow functions.
+        avoidExplicitReturnArrows: true,
+      },
+    ],
     'space-before-function-paren': [
       'error',
       {
