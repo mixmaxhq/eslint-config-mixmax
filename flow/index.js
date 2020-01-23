@@ -12,7 +12,7 @@ module.exports = {
     // Marks flow type declarations as used to prevent no-unused-vars for types
     'flowtype/use-flow-type': 1,
     // Enforces camelcase for type definitions
-    'flowtype/type-id-match': [2, '^([A-Z]+[a-z0-9A-Z]*)$'],
+    'flowtype/type-id-match': [2, '^([$A-Z]+[$a-z0-9A-Z]*)$'],
   },
   settings: {
     // Only use the flow linter for files with `@flow`
