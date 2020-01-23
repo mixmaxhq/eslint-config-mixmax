@@ -1,3 +1,10 @@
+## [4.6.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.5.0...v4.6.0) (2020-01-23)
+
+
+### Features
+
+* object-shorthand avoidExplicitReturnArrows ([77a73c2](https://github.com/mixmaxhq/eslint-config-mixmax/commit/77a73c25b79dcf8718938f10886f94d11ac9dedd))
+
 ## [4.5.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.4.0...v4.5.0) (2020-01-23)
 
 
