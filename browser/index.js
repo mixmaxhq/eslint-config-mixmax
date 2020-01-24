@@ -21,4 +21,9 @@ module.exports = {
   rules: {
     'react/jsx-wrap-multilines': 2,
   },
+  settings: {
+    react: {
+      version: '16.3',
+    },
+  },
 };
