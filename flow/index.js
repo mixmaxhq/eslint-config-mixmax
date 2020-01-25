@@ -1,5 +1,8 @@
 module.exports = {
   parser: 'babel-eslint',
+  // Ignore these files as they are dependencies and their noncompliance with our arbitrary rules
+  // should not prevent their use.
+  ignorePatterns: ['flow-typed/npm/**'],
   plugins: [
     // Allows correct parsing of flow annotated files.
     'flowtype',
