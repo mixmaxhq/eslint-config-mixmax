@@ -1,3 +1,10 @@
+## [4.7.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.6.0...v4.7.0) (2020-01-25)
+
+
+### Features
+
+* ignore flow-typed/npm in flow config ([25e8d88](https://github.com/mixmaxhq/eslint-config-mixmax/commit/25e8d8807f48f22eefaba04868379c713d2c917f))
+
 ## [4.6.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.5.0...v4.6.0) (2020-01-23)
 
 
