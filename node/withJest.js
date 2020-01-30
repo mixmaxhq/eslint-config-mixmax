@@ -2,12 +2,7 @@ module.exports = {
   extends: './',
   overrides: [
     {
-      files: [
-        '**/*.test.js?(x)',
-        '**/*Spec.js?(x)',
-        'spec/support/**/*.js',
-        'test/support/**/*.js',
-      ],
+      files: ['**/*.test.js?(x)', '**/*Spec.js?(x)', 'spec/**/*.js', 'test/**/*.js'],
       env: {
         jest: true,
       },
