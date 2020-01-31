@@ -1,3 +1,10 @@
+## [4.8.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.7.0...v4.8.0) (2020-01-31)
+
+
+### Features
+
+* support test files in test and spec folders ([82a3953](https://github.com/mixmaxhq/eslint-config-mixmax/commit/82a39534866ebb8410e89547fe20102b0adfd160))
+
 ## [4.7.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.6.0...v4.7.0) (2020-01-25)
 
 
