@@ -1,3 +1,10 @@
+## [4.9.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.8.0...v4.9.0) (2020-02-18)
+
+
+### Features
+
+* add no-var rule ([3699832](https://github.com/mixmaxhq/eslint-config-mixmax/commit/36998326f9fc23902cdaa4745f2334aff2a49d18))
+
 ## [4.8.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.7.0...v4.8.0) (2020-01-31)
 
 
