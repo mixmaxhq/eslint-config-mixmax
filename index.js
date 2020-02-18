@@ -6,6 +6,11 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
+
+    // Disallow var-type variable declarations. This, combined with the prefer-const rule, will let
+    // eslint automatically replace vars with either lets or consts as appropriate.
+    'no-var': 'error',
+
     'object-shorthand': [
       'error',
       'always',
