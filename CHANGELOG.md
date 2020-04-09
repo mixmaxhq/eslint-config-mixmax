@@ -1,3 +1,10 @@
+## [4.10.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.9.0...v4.10.0) (2020-04-09)
+
+
+### Features
+
+* bump node ecmaVersion to support 10.x features ([83d3626](https://github.com/mixmaxhq/eslint-config-mixmax/commit/83d362611ef5c425a97b7c92622cb04bd6c7555a))
+
 ## [4.9.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.8.0...v4.9.0) (2020-02-18)
 
 
