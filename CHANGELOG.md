@@ -1,3 +1,10 @@
+### [4.11.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.0...v4.11.1) (2020-05-19)
+
+
+### Bug Fixes
+
+* correctly depend on import plugin ([#56](https://github.com/mixmaxhq/eslint-config-mixmax/issues/56)) ([8762ed1](https://github.com/mixmaxhq/eslint-config-mixmax/commit/8762ed160f2b7f046a5efabd76fda90f01f0dd5a))
+
 ## [4.11.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.10.0...v4.11.0) (2020-05-19)
 
 
