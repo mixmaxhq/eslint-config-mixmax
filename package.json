@@ -54,6 +54,7 @@
     "@mixmaxhq/semantic-release-config": "^1.2.2",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.20.2",
     "prettier": "^1.19.1",
     "semantic-release": "^15.13.31"
   },

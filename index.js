@@ -3,6 +3,7 @@ module.exports = {
     es6: true,
   },
   extends: 'eslint:recommended',
+  plugins: ['import'],
   rules: {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
@@ -92,6 +93,27 @@ module.exports = {
     // rely on implicit returns when return booleans or undefined.
     'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
     'eol-last': ['error', 'always'],
+
+    'import/first': 'warn',
+    'import/no-useless-path-segments': 'warn',
+
+    'import/order': [
+      'warn',
+      {
+        alphabetize: { order: 'asc', caseInsensitive: true },
+        'newlines-between': 'always',
+        pathGroups: [
+          { pattern: '@mixmaxhq/*', group: 'external', position: 'after' },
+          { pattern: '{,~}/utils/**', group: 'internal', position: 'before' },
+          { pattern: '{,~}/**', group: 'internal' },
+        ],
+        pathGroupsExcludedImportTypes: ['builtin'],
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling'], 'index'],
+      },
+    ],
+
+    // Also sort the named imports _within_ an import statement.
+    'sort-imports': ['warn', { ignoreDeclarationSort: true }],
   },
   overrides: [
     {
