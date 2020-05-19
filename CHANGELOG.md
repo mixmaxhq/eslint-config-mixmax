@@ -1,3 +1,10 @@
+## [4.11.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.10.0...v4.11.0) (2020-05-19)
+
+
+### Features
+
+* warn for misordered imports ([#53](https://github.com/mixmaxhq/eslint-config-mixmax/issues/53)) ([6c7a06f](https://github.com/mixmaxhq/eslint-config-mixmax/commit/6c7a06f7ebf20576e2b557505d14e87fd621d33f))
+
 ## [4.10.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.9.0...v4.10.0) (2020-04-09)
 
 
