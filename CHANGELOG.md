@@ -1,3 +1,10 @@
+### [4.11.2](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.1...v4.11.2) (2020-12-22)
+
+
+### Bug Fixes
+
+* invalid ecmascript bug ([c5eb08d](https://github.com/mixmaxhq/eslint-config-mixmax/commit/c5eb08dbf5c658c9fc91c69eedac82eebf419ad8))
+
 ### [4.11.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.0...v4.11.1) (2020-05-19)
 
 
