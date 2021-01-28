@@ -1,3 +1,11 @@
+### [4.11.3](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.2...v4.11.3) (2021-01-28)
+
+
+### Bug Fixes
+
+* import order ([4cc3bf1](https://github.com/mixmaxhq/eslint-config-mixmax/commit/4cc3bf1652687c408543a22c4bdcd446f979107b))
+* update rule to match mixmax packages ([8d102a1](https://github.com/mixmaxhq/eslint-config-mixmax/commit/8d102a1ec0b2ae491cad3319d8b573eeae61237d))
+
 ### [4.11.2](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.1...v4.11.2) (2020-12-22)
 
 
