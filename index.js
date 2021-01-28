@@ -103,7 +103,7 @@ module.exports = {
         alphabetize: { order: 'asc', caseInsensitive: true },
         'newlines-between': 'always',
         pathGroups: [
-          { pattern: '@mixmaxhq/*', group: 'external', position: 'after' },
+          { pattern: '@mixmaxhq/**', group: 'external', position: 'after' },
           { pattern: '{,~}/utils/**', group: 'internal', position: 'before' },
           { pattern: '{,~}/**', group: 'internal' },
         ],
