@@ -1,3 +1,11 @@
+### [4.11.4](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.3...v4.11.4) (2021-01-29)
+
+
+### Bug Fixes
+
+* remove outdated readme section ([1b11eb6](https://github.com/mixmaxhq/eslint-config-mixmax/commit/1b11eb665352870d151190d70dad0bace76ef5d4))
+* update readme ([84b6cfb](https://github.com/mixmaxhq/eslint-config-mixmax/commit/84b6cfbb1d64e1e330975531e7e7efcaa599122a))
+
 ### [4.11.3](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.2...v4.11.3) (2021-01-28)
 
 
