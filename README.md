@@ -74,14 +74,3 @@ in the appropriate directories: extend…
 
 If you want you can extend the base configuration directly (`"extends": "mixmax"`) but you shouldn't
 need to since the Node and browser configurations already extend that.
-
-## Roadmap
-
-At v1.0.0, we've implemented configs for the common project types, and update rules as new conventions arise (still mostly ESLint's recommended set though (the checkmarked rules [here](http://eslint.org/docs/rules)). New rules should have justification for their use and a small analysis of the impact on existing code.
-
-We may wish to adopt a more comprehensive / style-oriented spec like [Airbnb’s](https://github.com/airbnb/javascript),
-since team members write JS, especially ES6, in slightly different ways; but in the interest of not
-immediately breaking our projects I’ve deferred this till later.
-
-This repository should probably document whatever styles we end up adopting, i.e. we should migrate
-https://github.com/mixmaxhq/code-styles#js to here.
