@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['..', 'plugin:react/recommended'],
+  extends: ['..', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
@@ -23,5 +23,8 @@ module.exports = {
 
     // enforce the usage of either <React.Fragment> or <Fragment> instead of the shorthand <>
     'react/jsx-fragments': ['error', 'element'],
+
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
