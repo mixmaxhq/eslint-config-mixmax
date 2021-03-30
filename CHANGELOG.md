@@ -1,3 +1,10 @@
+## [4.12.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.4...v4.12.0) (2021-03-30)
+
+
+### Features
+
+* prevent the usage of the fragment shorthand ([18041f8](https://github.com/mixmaxhq/eslint-config-mixmax/commit/18041f89faa9e03981ce25bd83269039f988fa36))
+
 ### [4.11.4](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.3...v4.11.4) (2021-01-29)
 
 
