@@ -1,3 +1,10 @@
+### [4.12.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.12.0...v4.12.1) (2021-05-05)
+
+
+### Bug Fixes
+
+* fix react fragment rule config ([67cb4f1](https://github.com/mixmaxhq/eslint-config-mixmax/commit/67cb4f1d8a7556e037de14abfc7a3e2f0960c9a8))
+
 ## [4.12.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.11.4...v4.12.0) (2021-03-30)
 
 
