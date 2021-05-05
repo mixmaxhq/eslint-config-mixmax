@@ -20,5 +20,8 @@ module.exports = {
   },
   rules: {
     'react/jsx-wrap-multilines': 2,
+
+    // enforce the usage of either <React.Fragment> or <Fragment> instead of the shorthand <>
+    'react/jsx-fragments': ['error', 'element'],
   },
 };

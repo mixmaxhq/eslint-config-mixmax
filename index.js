@@ -3,7 +3,7 @@ module.exports = {
     es6: true,
   },
   extends: 'eslint:recommended',
-  plugins: ['import', 'react'],
+  plugins: ['import'],
   rules: {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
@@ -114,9 +114,6 @@ module.exports = {
 
     // Also sort the named imports _within_ an import statement.
     'sort-imports': ['warn', { ignoreDeclarationSort: true }],
-
-    // enforce the usage of either <React.Fragment> or <Fragment> instead of the shorthand <>
-    'react/jsx-fragments': ['error', 'element'],
   },
   overrides: [
     {

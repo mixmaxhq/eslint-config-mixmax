@@ -40,7 +40,8 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-flowtype": "^3.11.1",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-prettier": "^3.1.0"
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.23.1"
   },
   "peerDependencies": {
     "eslint": ">=7.18.0"
@@ -54,7 +55,6 @@
     "@mixmaxhq/semantic-release-config": "^2.0.1",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.6.0",
-    "eslint-plugin-react": "^7.23.1",
     "prettier": "^1.19.1",
     "semantic-release": "^17.2.3"
   },
