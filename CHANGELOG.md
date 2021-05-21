@@ -1,3 +1,10 @@
+## [4.13.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.12.1...v4.13.0) (2021-05-21)
+
+
+### Features
+
+* add rules of hooks to linter ([1caabf5](https://github.com/mixmaxhq/eslint-config-mixmax/commit/1caabf5ffa6e7def6dbd100b0f84c2aa14634b39))
+
 ### [4.12.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.12.0...v4.12.1) (2021-05-05)
 
 
