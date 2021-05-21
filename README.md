@@ -10,46 +10,29 @@ Later it should probably enforce [our code styles](https://github.com/mixmaxhq/c
 npm install -D eslint-config-mixmax
 ```
 
-or
-
-```sh
-npm install eslint-config-mixmax --save-dev
-```
-
 Install this config's peer dependencies if you haven't already:
 
 ```sh
 npm install -D "eslint@>=7.18.0"
 ```
+### Using browser config
 
-or
+If you'll be using the `browser` configs, make sure to install the following dependencies:
+- `eslint-plugin-react`
+- `eslint-plugin-react-hooks`
+- `babel-eslint`
 
-```sh
-npm install --save-dev "eslint@>=7.18.0"
-```
-
-If you'll be using the `browser` configs, make sure to install the optional `eslint-plugin-react` and `babel-eslint` dependencies.
-
-```sh
-npm install -D "eslint-plugin-react@^7.1.0" "babel-eslint@^8.2.1"
-```
-
-or
 
 ```sh
-npm install --save-dev "eslint-plugin-react@^7.1.0" "babel-eslint@^8.2.1"
+npm install -D "eslint-plugin-react@^7.23.1" "babel-eslint@^10.0.2" "eslint-plugin-react-hooks@^4.2.0"
 ```
+
+### Using Flow config
 
 If you'll be using the `flow` configs, make sure to install the optional `eslint-plugin-flowtype` and `babel-eslint` dependencies.
 
 ```sh
-npm install -D "eslint-plugin-flowtype@^2.41.0" "babel-eslint@^8.2.1"
-```
-
-or
-
-```sh
-npm install --save-dev "eslint-plugin-flowtype@^2.41.0" "babel-eslint@^8.2.1"
+npm install -D "eslint-plugin-flowtype@^3.11.1" "babel-eslint@^10.0.2"
 ```
 
 ## Usage
