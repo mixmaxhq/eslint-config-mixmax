@@ -1,3 +1,15 @@
+## [4.14.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.13.0...v4.14.0) (2021-06-16)
+
+
+### Features
+
+* add typescript eslint configs ([1905187](https://github.com/mixmaxhq/eslint-config-mixmax/commit/19051877721cd2e4ddec6f09b994894172f20766))
+
+
+### Bug Fixes
+
+* missing dependencies ([96334f4](https://github.com/mixmaxhq/eslint-config-mixmax/commit/96334f40627a398d9ec559f08fac79e3d3d623f5))
+
 ## [4.13.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.12.1...v4.13.0) (2021-05-21)
 
 
