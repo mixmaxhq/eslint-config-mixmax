@@ -114,6 +114,10 @@ module.exports = {
 
     // Also sort the named imports _within_ an import statement.
     'sort-imports': ['warn', { ignoreDeclarationSort: true }],
+
+    // Ensure that we use curly braces for multi-line statements and that if one statement uses
+    // curly braces, they all do.
+    curly: ['warn', 'multi-line', 'consistent'],
   },
   overrides: [
     {
