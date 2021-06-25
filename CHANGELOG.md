@@ -1,3 +1,10 @@
+## [4.15.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.14.0...v4.15.0) (2021-06-25)
+
+
+### Features
+
+* add consistent curly enforcement ([060aaa2](https://github.com/mixmaxhq/eslint-config-mixmax/commit/060aaa26df42a09a4de9095d892679e7a7d513c5))
+
 ## [4.14.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.13.0...v4.14.0) (2021-06-16)
 
 
