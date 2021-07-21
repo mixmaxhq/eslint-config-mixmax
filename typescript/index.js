@@ -4,7 +4,12 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ['../', 'plugin:@typescript-eslint/recommended', 'plugin:jest/recommended'],
+  extends: [
+    '../',
+    '../prettier',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended',
+  ],
   plugins: ['@typescript-eslint', 'import', 'jest'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
