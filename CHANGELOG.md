@@ -1,3 +1,10 @@
+## [4.16.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.15.0...v4.16.0) (2021-07-21)
+
+
+### Features
+
+* have our TS config extend prettier by default ([84ac14f](https://github.com/mixmaxhq/eslint-config-mixmax/commit/84ac14f7020825f014579723c412639b1e135ba8))
+
 ## [4.15.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.14.0...v4.15.0) (2021-06-25)
 
 
