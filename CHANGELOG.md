@@ -1,3 +1,10 @@
+## [4.17.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.16.0...v4.17.0) (2021-07-22)
+
+
+### Features
+
+* ignore order of imports for test files ([3e8701c](https://github.com/mixmaxhq/eslint-config-mixmax/commit/3e8701c836da89e7f24531b7960b02a1f07095cf))
+
 ## [4.16.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.15.0...v4.16.0) (2021-07-21)
 
 
