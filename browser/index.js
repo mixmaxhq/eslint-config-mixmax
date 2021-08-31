@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['..', './react'],
+  extends: ['..', './recommended'],
   parser: 'babel-eslint',
 };
