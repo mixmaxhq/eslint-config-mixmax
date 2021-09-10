@@ -1,3 +1,16 @@
+## [4.18.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.17.0...v4.18.0) (2021-09-10)
+
+
+### Features
+
+* add specific react settings ([379fd3f](https://github.com/mixmaxhq/eslint-config-mixmax/commit/379fd3f638f6c536a98b6311f98db92cd4bb38df))
+
+
+### Bug Fixes
+
+* allow some unused varables ([90c099d](https://github.com/mixmaxhq/eslint-config-mixmax/commit/90c099d6976d99a0ae33268591777303a213a14e))
+* use more correct naming ([b491b73](https://github.com/mixmaxhq/eslint-config-mixmax/commit/b491b73043c172ecaddd35f653f49629d40cd56d))
+
 ## [4.17.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.16.0...v4.17.0) (2021-07-22)
 
 
