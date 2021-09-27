@@ -14,6 +14,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig-lint.json'],
   },
   rules: {
     '@typescript-eslint/no-unused-vars': [
@@ -22,6 +23,11 @@ module.exports = {
         argsIgnorePattern: '^_|^next$',
       },
     ],
+    '@typescript-eslint/no-floating-promises': 'error',
+    '@typescript-eslint/no-for-in-array': 'error',
+    'no-implied-eval': 'off',
+    '@typescript-eslint/no-implied-eval': 'error',
+    '@typescript-eslint/no-misused-promises': 'error',
   },
   overrides: [
     {
