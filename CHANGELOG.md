@@ -1,3 +1,17 @@
+## [5.0.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.18.0...v5.0.0) (2021-09-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* requires a `tsconfig-lint.json` file at the project's root
+which includes all Typescript files being linted. May break the build because
+of new eslint errors. This can be worked around by disabling rules in
+`.eslintrc.json`.
+
+### Features
+
+* add type-aware rules for Typescript code ([3ce0cbf](https://github.com/mixmaxhq/eslint-config-mixmax/commit/3ce0cbf47ace71fc649bff2d2b78e458aac56f75))
+
 ## [4.18.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.17.0...v4.18.0) (2021-09-10)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mixmax",
-  "version": "4.18.0",
+  "version": "5.0.0",
   "description": "Mixmax's WIP style guide for JavaScript.",
   "main": "index.js",
   "scripts": {
