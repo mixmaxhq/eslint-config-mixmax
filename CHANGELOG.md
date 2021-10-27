@@ -1,3 +1,10 @@
+## [5.1.0-alpha.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.0.0...v5.1.0-alpha.1) (2021-10-27)
+
+
+### Features
+
+* update Typescript rules to await promises and prefer ?? over || ([9031df5](https://github.com/mixmaxhq/eslint-config-mixmax/commit/9031df563c3ffa685ff70ef30aff423d11f820f3))
+
 ## [5.0.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.18.0...v5.0.0) (2021-09-28)
 
 
