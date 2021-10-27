@@ -10,7 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
   ],
-  plugins: ['@typescript-eslint', 'import', 'jest'],
+  plugins: ['@typescript-eslint', 'import', 'jest', '@mixmaxhq'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
@@ -28,6 +28,11 @@ module.exports = {
     'no-implied-eval': 'off',
     '@typescript-eslint/no-implied-eval': 'error',
     '@typescript-eslint/no-misused-promises': 'error',
+    'no-return-await': 'off',
+    '@typescript-eslint/return-await': 'error',
+    '@mixmaxhq/or-only-on-booleans': 'error',
+    'no-warning-comments': 'error',
+    'no-explicit-any': 'off',
   },
   overrides: [
     {
