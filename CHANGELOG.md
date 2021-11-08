@@ -1,3 +1,10 @@
+### [5.0.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.0.0...v5.0.1) (2021-11-08)
+
+
+### Bug Fixes
+
+* remove deprecated babel parser ([07849c3](https://github.com/mixmaxhq/eslint-config-mixmax/commit/07849c3a786f329710e6d057473c0368ab64016d))
+
 ## [5.0.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v4.18.0...v5.0.0) (2021-09-28)
 
 
