@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   // Ignore these files as they are dependencies and their noncompliance with our arbitrary rules
   // should not prevent their use.
   ignorePatterns: ['flow-typed/npm/**'],

@@ -20,19 +20,19 @@ npm install -D "eslint@>=7.18.0"
 If you'll be using the `browser` configs, make sure to install the following dependencies:
 - `eslint-plugin-react`
 - `eslint-plugin-react-hooks`
-- `babel-eslint`
+- `@babel/eslint-parser`
 
 
 ```sh
-npm install -D "eslint-plugin-react@^7.23.1" "babel-eslint@^10.0.2" "eslint-plugin-react-hooks@^4.2.0"
+npm install -D "eslint-plugin-react@^7.23.1" "@babel/eslint-parser@^10.0.2" "eslint-plugin-react-hooks@^4.2.0"
 ```
 
 ### Using Flow config
 
-If you'll be using the `flow` configs, make sure to install the optional `eslint-plugin-flowtype` and `babel-eslint` dependencies.
+If you'll be using the `flow` configs, make sure to install the optional `eslint-plugin-flowtype` and `@babel/eslint-parser` dependencies.
 
 ```sh
-npm install -D "eslint-plugin-flowtype@^3.11.1" "babel-eslint@^10.0.2"
+npm install -D "eslint-plugin-flowtype@^3.11.1" "@babel/eslint-parser@^10.0.2"
 ```
 
 ## Usage
