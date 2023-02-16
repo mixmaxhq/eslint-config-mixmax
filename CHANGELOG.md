@@ -1,3 +1,10 @@
+## [5.1.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.0.1...v5.1.0) (2023-02-16)
+
+
+### Features
+
+* require awaiting returned promises ([629cbdd](https://github.com/mixmaxhq/eslint-config-mixmax/commit/629cbdd8cb11de5928e8a6c36879c6f2a0f183f7))
+
 ### [5.0.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.0.0...v5.0.1) (2021-11-08)
 
 
