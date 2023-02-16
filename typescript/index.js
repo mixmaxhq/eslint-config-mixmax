@@ -28,6 +28,8 @@ module.exports = {
     'no-implied-eval': 'off',
     '@typescript-eslint/no-implied-eval': 'error',
     '@typescript-eslint/no-misused-promises': 'error',
+    'no-return-await': 'off',
+    '@typescript-eslint/return-await': ['error', 'always'],
   },
   overrides: [
     {
