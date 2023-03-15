@@ -57,3 +57,9 @@ in the appropriate directories: extend…
 
 If you want you can extend the base configuration directly (`"extends": "mixmax"`) but you shouldn't
 need to since the Node and browser configurations already extend that.
+
+## Publishing a new version
+
+```
+GH_TOKEN=xxx npx semantic-release --no-ci
+```
