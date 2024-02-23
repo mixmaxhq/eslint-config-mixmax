@@ -13,3 +13,5 @@ jobs:
     uses: mixmaxhq/github-workflows-public/.github/workflows/checks.yml@main
   release:
     uses: mixmaxhq/github-workflows-public/.github/workflows/release.yml@main
+    needs: checks
+    secrets: inherit
