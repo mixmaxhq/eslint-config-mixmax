@@ -1,3 +1,10 @@
+### [5.2.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.0...v5.2.1) (2024-02-23)
+
+
+### Bug Fixes
+
+* force build ([a8b0958](https://github.com/mixmaxhq/eslint-config-mixmax/commit/a8b095845efcf4bf4ce7571433416a3cfd787d8d))
+
 ## [5.2.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.1.0...v5.2.0) (2024-02-23)
 
 
