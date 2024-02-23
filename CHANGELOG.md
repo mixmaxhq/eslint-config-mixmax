@@ -1,3 +1,15 @@
+## [5.2.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.1.0...v5.2.0) (2024-02-23)
+
+
+### Features
+
+* upgrade to Typescript 5 ([6bee7ea](https://github.com/mixmaxhq/eslint-config-mixmax/commit/6bee7ea31e68419fe3c5125d48d617ba323c9c3e))
+
+
+### Bug Fixes
+
+* **deps:** update dependency node to v18 ([#97](https://github.com/mixmaxhq/eslint-config-mixmax/issues/97)) ([e4d6571](https://github.com/mixmaxhq/eslint-config-mixmax/commit/e4d6571db5b0859f4eadfa3ef96cf3822ece0233))
+
 ## [5.1.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.0.1...v5.1.0) (2023-02-16)
 
 
