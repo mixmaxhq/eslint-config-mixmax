@@ -4,6 +4,15 @@
 ### Bug Fixes
 
 * ci ([70192fa](https://github.com/mixmaxhq/eslint-config-mixmax/commit/70192faec5ab105f38ec87aa07309063cca22c37))
+* force build ([c8740df](https://github.com/mixmaxhq/eslint-config-mixmax/commit/c8740df421a3724686343686ef902af9c25dc24a))
+* semantic release ([799a9b1](https://github.com/mixmaxhq/eslint-config-mixmax/commit/799a9b115c1d9ce3ddf2ccd9d38cecc09e618a6c))
+
+### [5.2.2](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.1...v5.2.2) (2024-02-27)
+
+
+### Bug Fixes
+
+* ci ([70192fa](https://github.com/mixmaxhq/eslint-config-mixmax/commit/70192faec5ab105f38ec87aa07309063cca22c37))
 * semantic release ([799a9b1](https://github.com/mixmaxhq/eslint-config-mixmax/commit/799a9b115c1d9ce3ddf2ccd9d38cecc09e618a6c))
 
 ### [5.2.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.0...v5.2.1) (2024-02-23)
