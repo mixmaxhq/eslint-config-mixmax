@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mixmax",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "Mixmax's WIP style guide for JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -67,8 +67,7 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    },
-    "manualPublishMessage": "This repository is configured to use semantic-release for its releases. Please do not release manually.\n"
+    }
   },
   "commitlint": {
     "extends": [
