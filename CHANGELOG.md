@@ -1,3 +1,10 @@
+### [5.2.3](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.2...v5.2.3) (2025-02-10)
+
+
+### Bug Fixes
+
+* allow later typescript-eslint versions ([bc31695](https://github.com/mixmaxhq/eslint-config-mixmax/commit/bc3169570b5efb7a4161dfaa255954a253741dc2))
+
 ### [5.2.2](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.1...v5.2.2) (2024-02-27)
 
 
