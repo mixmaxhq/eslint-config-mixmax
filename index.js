@@ -1,9 +1,14 @@
+const { addRegexRuleName } = require('eslint-plugin-regex');
+addRegexRuleName('invalid-product-id-parsing');
+
+const ATTEMPT_AT_PARSING_PRODUCT_IDS = /('mixmax-product-ids'\)|productIds?)[\.\[]|for.* (of|in) productIds?|(match|test)\s*\(\s*(productIds?|.*'mixmax-product-ids')/i;
+
 module.exports = {
   env: {
     es6: true,
   },
   extends: 'eslint:recommended',
-  plugins: ['import'],
+  plugins: ['import', 'regex'],
   rules: {
     'arrow-parens': ['error', 'always'],
     'prefer-const': ['error'],
@@ -118,6 +123,22 @@ module.exports = {
     // Ensure that we use curly braces for multi-line statements and that if one statement uses
     // curly braces, they all do.
     curly: ['warn', 'multi-line', 'consistent'],
+
+    'regex/invalid-product-id-parsing': [
+      'error',
+      [
+        {
+          message:
+            'Please do not parse or look into the product ids; product-based decisions must be' +
+            ' based on feature checks. See README in `monorepo-billing/libs/features-sdk`.',
+          regex: ATTEMPT_AT_PARSING_PRODUCT_IDS.toString().split('/')[1],
+          flags: ATTEMPT_AT_PARSING_PRODUCT_IDS.toString().split('/')[2],
+          files: {
+            inspect: '\\.(js|tsx?)$',
+          },
+        },
+      ],
+    ],
   },
   overrides: [
     {
