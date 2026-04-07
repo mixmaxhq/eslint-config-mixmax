@@ -1,5 +1,14 @@
 const { addRegexRuleName } = require('eslint-plugin-regex');
-addRegexRuleName('invalid-product-id-parsing');
+// addRegexRuleName throws if the rule name is already registered. ESLint can
+// load this config more than once per lint run (via import-fresh, which
+// bypasses the Node.js require cache — notably when an overrides[] block in
+// a child config uses `extends`, as typescript/index.js does). Swallow the
+// redefine error so repeated loads remain a no-op.
+try {
+  addRegexRuleName('invalid-product-id-parsing');
+} catch (err) {
+  if (!/already defined/i.test(err && err.message)) throw err;
+}
 
 const ATTEMPT_AT_PARSING_PRODUCT_IDS = /('mixmax-product-ids'\)|productIds?)[\.\[]|for.* (of|in) productIds?|(match|test)\s*\(\s*(productIds?|.*'mixmax-product-ids')/i;
 
