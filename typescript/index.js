@@ -4,13 +4,8 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: [
-    '../',
-    '../prettier',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended',
-  ],
-  plugins: ['@typescript-eslint', 'import', 'jest'],
+  extends: ['../', '../prettier', 'plugin:@typescript-eslint/recommended'],
+  plugins: ['@typescript-eslint', 'import'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
@@ -33,7 +28,10 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.test.ts'],
+      files: require('../lib/test-globs'),
+      extends: ['plugin:@vitest/legacy-recommended'],
+      plugins: ['@vitest'],
+      globals: require('../lib/vitest-globals'),
       rules: {
         'import/first': 'off',
         'import/order': 'off',
