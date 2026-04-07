@@ -1,3 +1,21 @@
+## [6.0.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.6...v6.0.0) (2026-04-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* replace eslint-plugin-jest with @vitest/eslint-plugin
+
+### Features
+
+* replace eslint-plugin-jest with @vitest/eslint-plugin ([1b53ecf](https://github.com/mixmaxhq/eslint-config-mixmax/commit/1b53ecf621284fe47c65ef201d069be68471c2d4))
+* rule to prevent deviating from our paywall-checking architecture ([25b2421](https://github.com/mixmaxhq/eslint-config-mixmax/commit/25b2421dec4cea7a2a0d5bb0140e95e41f0ec651))
+
+
+### Bug Fixes
+
+* add .npmrc with legacy-peer-deps=true so CI install resolves ([77a2543](https://github.com/mixmaxhq/eslint-config-mixmax/commit/77a25435b0642e62ec00b56c89d9f2ed8b59bce4))
+* restrict typescript test override globs to TS/TSX only ([b66f82a](https://github.com/mixmaxhq/eslint-config-mixmax/commit/b66f82a06615a153118cd01b244e27659d434219))
+
 ### [5.2.6](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.5...v5.2.6) (2025-02-10)
 
 
