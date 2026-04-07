@@ -13,7 +13,7 @@ npm install -D eslint-config-mixmax
 Install this config's peer dependencies if you haven't already:
 
 ```sh
-npm install -D "eslint@>=7.18.0"
+npm install -D "eslint@>=8.57.0"
 ```
 ### Using browser config
 
@@ -35,6 +35,14 @@ If you'll be using the `flow` configs, make sure to install the optional `eslint
 npm install -D "eslint-plugin-flowtype@^3.11.1" "@babel/eslint-parser@^10.0.2"
 ```
 
+### Using Vitest support
+
+If you'll be using the `typescript`, `node/withVitest`, or `node/vitest` configs, install the optional `@vitest/eslint-plugin` dependency.
+
+```sh
+npm install -D "@vitest/eslint-plugin@^1.6.14"
+```
+
 ## Usage
 
 Create `.eslintrc.json` files like
@@ -50,6 +58,8 @@ in the appropriate directories: extend…
 - "mixmax/node", in directories containing Node.js code.
 - "mixmax/node/spec", in directories containing Node specs (assumed to be using Jasmine).
 - "mixmax/node/ava", in directories containing ava tests.
+- "mixmax/node/withVitest", in Node.js projects using Vitest. Scopes Vitest globals and rules to test files only (recommended for repos where test files live alongside source files).
+- "mixmax/node/vitest", in Node.js test-only directories (e.g. a `test/` subdirectory's own `.eslintrc.json`). Applies Vitest globals and rules unconditionally.
 - "mixmax/node/next", in projects using node 8 syntax (should also extend mixmax/node).
 - "mixmax/flow", in projects using flow for type checking (should also extend mixmax/node or mixmax/browser).
 - "mixmax/browser", in directories containing browser code. `eslint-plugin-react` is enabled in this configuration to allow for React-specific linting. Additionally, `Backbone` and `$` are globalized so that their `import` statements are not required by the linter (though they should be - see TODOs in this configuration file).
