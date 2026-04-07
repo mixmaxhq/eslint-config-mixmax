@@ -28,7 +28,17 @@ module.exports = {
   },
   overrides: [
     {
-      files: require('../lib/test-globs'),
+      // TS/TSX-only globs: this config uses @typescript-eslint/parser with
+      // parserOptions.project, so .js/.jsx files matched here would fail to
+      // parse if they aren't in the tsconfig. Repos with JS test files
+      // should use mixmax/node/withVitest in addition to mixmax/typescript.
+      files: [
+        '**/*.test.{ts,tsx}',
+        '**/*.spec.{ts,tsx}',
+        'test/**/*.{ts,tsx}',
+        'tests/**/*.{ts,tsx}',
+        '__tests__/**/*.{ts,tsx}',
+      ],
       extends: ['plugin:@vitest/legacy-recommended'],
       plugins: ['@vitest'],
       globals: require('../lib/vitest-globals'),
