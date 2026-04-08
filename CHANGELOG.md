@@ -1,3 +1,10 @@
+### [6.0.1](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v6.0.0...v6.0.1) (2026-04-08)
+
+
+### Bug Fixes
+
+* make addRegexRuleName idempotent for multi-load scenarios ([41bba3d](https://github.com/mixmaxhq/eslint-config-mixmax/commit/41bba3dd002684a4388373d26751b40735636df2))
+
 ## [6.0.0](https://github.com/mixmaxhq/eslint-config-mixmax/compare/v5.2.6...v6.0.0) (2026-04-07)
 
 
