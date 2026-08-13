@@ -13,8 +13,12 @@ npm install -D eslint-config-mixmax
 Install this config's peer dependencies if you haven't already:
 
 ```sh
-npm install -D "eslint@>=8.57.0"
+npm install -D "eslint@>=8.57.0" "prettier@>=1.13.0 <3"
 ```
+
+Prettier is required by every config: `mixmax/node` and `mixmax/typescript` extend
+`mixmax/prettier`, which runs `eslint-plugin-prettier`. Prettier 3 is *not* supported —
+`eslint-plugin-prettier@3` calls `prettier.resolveConfig.sync`, which Prettier 3 removed.
 ### Using browser config
 
 If you'll be using the `browser` configs, make sure to install the following dependencies:
